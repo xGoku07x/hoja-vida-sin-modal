@@ -166,7 +166,7 @@ const index= ()=>{
 
               </div>
               <div className="w-1/3">
-                <TarjetaPortafolio titulo="L'occitane" subtitulo="Fui participe del desarrollo de la tienda actual de L'Occitane en Colombia" ImagenTarjeta="/Loccitane.png" linkTienda="https://co.loccitane.com/"/>
+                <TarjetaPortafolio titulo="L'occitane" subtitulo="Fui participe del desarrollo de la tienda actual de L'Occitane en Colombia" ImagenTarjeta="/loccitane.png" linkTienda="https://co.loccitane.com/"/>
               </div>
               <div className="w-1/3">
                 <TarjetaPortafolio titulo="Chamela" subtitulo="Fui participe del desarrollo de la tienda actual de Chamela en Colombia" ImagenTarjeta="/chamela.jpg" linkTienda="https://www.chamela.co/"/>
