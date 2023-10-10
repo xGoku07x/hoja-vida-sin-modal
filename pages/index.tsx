@@ -21,17 +21,12 @@ import {Datos} from '@/components/descripcion';
 import {TarjetaPortafolio} from '@/components/tarjeta-portafolio';
 import {RedSocial} from '@/components/imagen-red-social';
 import { DialogoPersonal } from "@/components/dialog-personal";
-import { useState } from "react";
+
 
 
 
 const index= ()=>{
-  const [dialogoPersonal, setDialogoPersonal] = useState <boolean>(false);
-  const handleDialogoPersonalClick = () => {
-    setDialogoPersonal(true);
-
-  }
-
+ 
   return (
     
     
@@ -95,7 +90,7 @@ const index= ()=>{
                   <br/>
                   <div className='flex justify-start'>
                     
-                    <a href="#" className='pointer border bg-teal-700 px-5 py-3 text-white font-semibold' onClick={handleDialogoPersonalClick}>Contratame</a>
+                    <a href="#" className='pointer border bg-teal-700 px-5 py-3 text-white font-semibold'  >Contratame</a>
                   </div>
               </div>
             </div>
@@ -194,7 +189,7 @@ const index= ()=>{
             <RedSocial ImageIcon={BiLogoTwitter} linkRedSocial="https://twitter.com/home"/>
           </div>
         </aside>
-        <DialogoPersonal open={ dialogoPersonal} setDialogoPersonal={setDialogoPersonal}/>
+          
     </main>
 
     
